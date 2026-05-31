@@ -23,7 +23,9 @@ class MyApp extends ConsumerWidget {
     //read is only executed 1 time
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CounterScreen()
+      home: TodoScreen()
+
+      //CounterScreen()
 
       //TimerScreen(),
 

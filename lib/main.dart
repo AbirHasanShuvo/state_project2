@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:state_series/video_2/video_2.dart';
-import 'package:state_series/video_3/video_3.dart';
-import 'package:state_series/video_5/video_5.dart';
-import 'package:state_series/video_6/video_6.dart';
-import 'package:state_series/video_7/counter_example/counter_screen.dart';
+import 'package:state_series/video_7/todo_example/todo_screen.dart';
 
 void main() {
   runApp(ProviderScope(child: MyApp()));
@@ -23,7 +19,7 @@ class MyApp extends ConsumerWidget {
     //read is only executed 1 time
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TodoScreen()
+      home : TodoScreen()
 
       //CounterScreen()
 

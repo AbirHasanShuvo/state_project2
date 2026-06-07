@@ -44,7 +44,7 @@ class _StateFulConsumerTutorialState
           children: [
             TextFormField(controller: _controller,),
             const SizedBox(height: 10),
-            Text('You Typed: ${text}', style: TextStyle(fontSize: 30)),
+            Text('You Typed: $text', style: TextStyle(fontSize: 30)),
           ],
         ),
       ),
